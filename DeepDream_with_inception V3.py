@@ -29,7 +29,7 @@ model=inception_v3.InceptionV3(weights='imagenet',
 
 ###Choose the Inception V3 model of weights(4 layers in parallel)
 layer_contributions={
-        'mixed2':0.2,
+        'mixed2':3.,
         'mixed3':3.,
         'mixed4':2.,
         'mixed5':1.5,
